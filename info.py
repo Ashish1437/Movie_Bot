@@ -17,7 +17,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 WEB_SUPPORT = bool(environ.get("WEBHOOK", 'True')) # for web support on/off
-PICS = (environ.get('PICS' ,'https://graph.org/file/01ddfcb1e8203879a63d7.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/d7b520240b00b7f083a24.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/fccdc5cdda8405c059c60.jpg https://graph.org/file/b8e3eaf8cb812dfe68a76.jpg https://graph.org/file/412708c9d96e91232e6b6.jpg https://graph.org/file/7b8ad7fc7ff7746fd77bb.jpg https://graph.org/file/d772ddd6f8d4c86a520e1.jpg https://graph.org/file/e9f25bfc36ba93cd7557e.jpg https://graph.org/file/e815beeb1053a45ddedce.jpg https://graph.org/file/1abea73752a05afe357e6.jpg https://graph.org/file/d7b1e2a816bcccb485957.jpg https://graph.org/file/a0c6f6a58bea7616c3e56.jpg https://graph.org/file/26ba954e688b2d25f5c80.jpg')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
@@ -58,7 +58,7 @@ SHORT_API = environ.get("SHORT_API")
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MKN_BOTZ_DISCUSSION_GROUP')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'A2_Movies_Hub')
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "True"), True)
 IMDB = is_enabled(environ.get('IMDB', "True"), True)
